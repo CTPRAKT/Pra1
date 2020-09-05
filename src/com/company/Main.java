@@ -8,7 +8,7 @@ public class Main {
         Dog n3 = new Dog ("Kent",8);
         System.out.println(n1);
         n1.humanAge();
-        n2.humanAge();
-        n3.humanAge();
+        System.out.println(n1.toString());
+        
     }
 }
